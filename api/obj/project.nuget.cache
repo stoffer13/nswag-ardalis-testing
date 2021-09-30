@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "golN+0Mloq2QcSy0kb7nNyuQMdiur3JhAV/MBOQO8nEFUY/55uNFqibxCjE34OCglmC7ubgeRd9ytQ6pj+M8Xw==",
+  "success": true,
+  "projectFilePath": "/Users/stoffer/dev/ardalis-test/api/api.csproj",
+  "expectedPackageFiles": [
+    "/Users/stoffer/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/stoffer/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/stoffer/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/stoffer/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/stoffer/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/stoffer/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
