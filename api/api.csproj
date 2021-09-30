@@ -21,4 +21,13 @@
 
   <Delete Files="$(ProjectDir)\obj\$(MSBuildProjectFile).NSwag.targets" /> <!-- This thingy trigger project rebuild -->
 </Target>
+
+<Target Name="NSwag" AfterTargets="PostBuildEvent" Condition=" '$(Configuration)' == 'Debug' ">
+  <Message Importance="High" Text="$(NSwagExe_Net50) webapi2openapi nswag.json /variables:Configuration=$(Configuration)" />
+
+  <Exec WorkingDirectory="$(ProjectDir)" EnvironmentVariables="ASPNETCORE_ENVIRONMENT=Development" Command="$(NSwagExe_Net50) webapi2openapi /assembly:bin/Debug/net5.0/api.dll /output:MyWebService.json" />
+
+  <Delete Files="$(ProjectDir)\obj\$(MSBuildProjectFile).NSwag.targets" /> <!-- This thingy trigger project rebuild -->
+</Target>
+
 </Project>

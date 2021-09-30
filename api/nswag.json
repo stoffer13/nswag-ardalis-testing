@@ -1,6 +1,6 @@
 {
     "runtime": "Net50",
-    "defaultVariables": "CSharpOutputPath=..\\Client.CSharp",
+    "defaultVariables": "CSharpOutputPath=../api.Client.CSharp",
     "documentGenerator": {
       "aspNetCoreToOpenApi": {
         "project": "api.csproj",
@@ -194,7 +194,7 @@
         "enumNameGeneratorType": null,
         "serviceHost": null,
         "serviceSchemes": null,
-        "output": "$(TypescriptOutputPath)/api.generated.clients.ts"
+        "output": "../api.ts.client/api.generated.clients.ts"
       }
     }
   }
